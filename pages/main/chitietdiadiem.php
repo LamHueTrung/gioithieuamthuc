@@ -97,24 +97,24 @@
         </div>
         <ul>
           <li>
-            <a href="#nguyenlailam">
-              Chuẩn bị nguyên liệu
+            <a href="#thongtin">
+              Thông tin <?php echo $row['tendiadiem']?>
             </a>
           </li>
           <li>
-            <a href="#cachchebien">
-            Cách chế biến <?php echo $row['tendiadiem']?>
+            <a href="#mota">
+            Mô tả <?php echo $row['tendiadiem']?>
             </a>
             </li>
         </ul>
       </div>
-      <div class="col-md-9 w-100 ml-3" id = "nguyenlieulam">
+      <div class="col-md-9 w-100 ml-3" id = "thongtin">
         <h4 class = 'mt-4 w-100'>Thông tin <?php echo $row['tendiadiem']?></h4>
         <span class = 'w-100'>Địa chỉ: <?php echo $row['diachi']?></span> </br>
         <span class = 'w-100'>Giờ phục vụ: <?php echo $row['giophucvu']?></span> </br>
         <span class = 'w-100'>Số điện thoại/ Zalo: <?php echo $row['sodienthoai']?></span>
       </div>
-      <div class="col-md-9 w-100 ml-3" id = "cachchebien">
+      <div class="col-md-9 w-100 ml-3" id = "mota">
         <h4 class = 'mt-4 w-100'>Mô tả <?php echo $row['tendiadiem']?></h4>
         <?php 
         $nguyenlieu = $row['mota'];

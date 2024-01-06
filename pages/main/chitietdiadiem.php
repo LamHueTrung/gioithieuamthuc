@@ -131,7 +131,7 @@
         while($row2 = $result_danhmuc->fetch_assoc()){ 
         ?>
                 <li class=" ">
-                    <a href="?quanly=chitietmonan&id=<?php echo $row2['id_danhmuc']?>">
+                    <a href="?quanly=chitietmonan&id=<?php echo $row2['id_monan']?>">
                             <img  style ='width: 40%;' src="./hinhanh/<?php echo $row2['hinhanh']?>" alt="<?php echo $row2['tenmonan']?>">
                         <?php echo $row2['tenmonan']?>
                     </a>
